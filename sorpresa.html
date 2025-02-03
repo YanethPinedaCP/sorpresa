@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorpresita</title>
+  <link rel="stylesheet" href="sorpresastyle.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.11.3/brython.min.js"></script>
+</head>
+<body onload="brython()">
+
+    <div class="contenedor-inicio">
+        <button class="botoninicio" id="openModal">Haz clic aquí</button>
+    </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal-escrito">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div class="TextoSaludo">
+        <h1>Hola preciosa!! </h1>
+        <p>Primero que nada agradecerte por este tiempo compartido
+          quiero que sepas que eres lo mejor que me pudo pasar. Desde que apareciste 
+          eres un solecito en mi vida, contigo estoy viviendo la historia más bonita de 
+          amor. 
+        </p>
+        <p>Te amo infinito infinito </p>
+      </div>
+    
+      <button class="BotonSecundario" id="openNewDocument">Presiona aquí</button>
+    </div>
+  </div>
+
+  <!-- Contenido en blanco -->
+  <div class="PaginaOpcion" id="blankPage" style="display: none;">
+    <h1>Elige una opción: </h1>
+    <button class="op1" id="button1">Opción 1</button>
+    <button class="op2" id="button2">Opción 2</button>
+  </div>
+
+  <!-- Página Opción 1 con el Canvas -->
+  <div class="Opcion1-container" id="paginaopcion1" style="display: none;">
+    <h1>Hola página 1</h1>
+
+    
+  
+  </div>
+
+  <!-- Página Opción 2 -->
+<!-- Página Opción 2 -->
+<div class="Opcion2-container" id="paginaopcion2" style="display: none;">
+
+</div>
+
+
+  <script src="sorpresamov.js"></script>
+</body>
+</html>
